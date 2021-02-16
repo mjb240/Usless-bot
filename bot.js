@@ -1,6 +1,6 @@
 function answerQuery(query) {
   query = query.toLowerCase();
-  if (query.indexOf("football") != -1 || query.indexOf("sport") != -1 || query.indexOf("stadium") != -1)
+  if (query.indexOf("football") != -1 || query.indexOf("sports") != -1 || query.indexOf("stadium") != -1)
     return "I do not care too much about sports, I'm locked inside a data center.";
   return "Sorry Dave, I cannot do that."
 
